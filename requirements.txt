@@ -1,0 +1,7 @@
+# 基础
+requests
+# 任务 A/B 的关键词 baseline
+jieba
+rank_bm25
+# 指标与图
+numpy
