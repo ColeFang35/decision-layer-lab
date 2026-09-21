@@ -10,16 +10,11 @@
 
 ## 这条线里的位置
 
-这三个实验台是同一条主线上的三层：**一个 AI 应用里，哪一层的信号可信？**
+做 Agent 的过程中被同一类问题绊了几次，就各做了一个小实验：**这一步是真的对了，还是只是看起来对了。**
 
-| 层 | 问的问题 | 仓库 |
-|---|---|---|
-| 检索层 | 检索方案哪个更好？ | [rag-lab](https://github.com/ColeFang35/rag-lab) |
-| 裁判层 | 用 LLM 当裁判，裁判自己可不可信？ | [llm-judge-eval](https://github.com/ColeFang35/llm-judge-eval) |
-| **决策层** | 模型自报的置信度能不能拿来设阈值？ | **decision-layer-lab**（本仓库） |
-
-合起来是一句话：**别信单一信号，要看它和别的信号对不对得上。**
-这个仓库里的例子最扎心：ECE 全场最好看的那条（0.009），准确率只有 27.3%。
+- [rag-lab](https://github.com/ColeFang35/rag-lab) —— 检索方案哪个更好，重排值不值那个延迟
+- [llm-judge-eval](https://github.com/ColeFang35/llm-judge-eval) —— 用 LLM 当裁判，裁判自己可不可信
+- **decision-layer-lab**（本仓库）—— 模型自报的置信度能不能拿来设阈值
 
 ## 结论先说
 
